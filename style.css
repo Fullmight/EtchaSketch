@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Spectral+SC:400,500);
+
+.html-mod{
+    background-color: #2E6E65;
+}
+
+body{
+    background-color: #2B3752;
+}
+
+.alternate-title {
+    font-family: "Spectral SC", serif;
+    text-align: center;
+    font-weight: 500;
+    color: #86EE60 !important;
+}
+
+head {
+    font-family: "Spectral SC", serif, bold;
+    text-align: center;
+    display: block;
+}
+
+.center-grid {
+    position: relative;
+    margin: 1% auto auto auto;
+    width: auto;
+    height: auto;
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.5);
+    align-content: center;
+    background-color: #2E6E65;
+}
+
+.text-alignment {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+.table-inner {
+    margin: auto;
+    position: relative;
+}
+
+.cell {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 20px;
+    width: 20px;
+}
+
+#resetButton {
+    margin: 0% 0% -2% 2%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-mod{
+    color: #86EE60;
+    font-family: "Spectral SC", serif;
+
+}

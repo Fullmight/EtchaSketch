@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>EtchaSketch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<!--
+
+Just a little practice project I did to get a little more experience
+using javascript to generate and edit html.
+
+This was also a nice opportunity to use recursion in an actual site
+to improve the efficiency of the grid generation a bit.
+-->
 <body>
 
+<div class="alternate-title h1">
+    EtchaSketch
+</div>
+
+<div class="container">
+    <form class="text-mod">Input size (2-72): <br>
+        <input id="gridSize" type="text" name="tableVal" value="32"></br>
+
+    </form>
+    <button type="button" class="btn btn-dark text-mod" id="resetButton" >Reset Grid</button>
+</div>
+
+<div class="container">
+
+
+    <div class="center-grid">
+        <table class="container" id="table"></table>
+    </div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
